@@ -1,0 +1,25 @@
+/* 
+  Localizable.strings
+  poc
+
+  Created by Salaheddine on 19/04/2020.
+  Copyright © 2020 Salaheddine. All rights reserved.
+*/
+
+/* Buttons */
+"btn_valider" = "Valider";
+"btn_annuler" = "Annuler";
+
+
+
+/* Menu */
+"menu_accueil" = "Accueil";
+"menu_health" = "Health";
+
+
+/* Header title */
+"health_title" = "Health";
+"home_title" = "Home";
+
+
+

@@ -1,0 +1,36 @@
+{
+"menuItems"     :
+[
+    {
+        "sectionName"   :   "",
+        "items"         :
+        [
+            {
+                "title"         :   "menu_accueil",
+                "icon"          :   "menu_accueil",
+                "controller"    :   "home",
+                "onLogin"       :   false
+            }
+        ]
+    },
+    {
+        "sectionName"   :   "menu_health",
+        "items"         :
+        [
+            {
+                "title"         :   "menu_health",
+                "icon"          :   "menu_health",
+                "controller"    :   "health",
+                "onLogin"       :   true,
+            },
+            {
+                "title"         :   "menu_health",
+                "icon"          :   "menu_accueil",
+                "controller"    :   "health",
+                "onLogin"       :   true,
+            }
+          ]
+    }
+     ]
+    }
+
