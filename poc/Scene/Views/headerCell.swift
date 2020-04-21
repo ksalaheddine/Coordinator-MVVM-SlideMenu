@@ -1,16 +1,16 @@
 //
-//  MenuSectionCell.swift
+//  headerCell.swift
 //  poc
 //
-//  Created by Salaheddine on 19/04/2020.
+//  Created by Salaheddine on 21/04/2020.
 //  Copyright © 2020 Salaheddine. All rights reserved.
 //
 
 import UIKit
 
-class MenuSectionCell: UITableViewCell {
+class headerCell: UITableViewCell {
 
-    @IBOutlet var labelSectionCell: UILabel!
+    @IBOutlet var sectionName: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

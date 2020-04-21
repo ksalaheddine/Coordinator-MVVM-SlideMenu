@@ -2,7 +2,7 @@
 "menuItems"     :
 [
     {
-        "sectionName"   :   "",
+        "sectionName"   :   "menu_accueil",
         "items"         :
         [
             {
