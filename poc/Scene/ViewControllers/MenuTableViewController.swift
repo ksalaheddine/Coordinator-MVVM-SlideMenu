@@ -15,7 +15,7 @@ class MenuTableViewController: BaseViewController, UITableViewDelegate, UITableV
 
     var coordinator : MenuCoordinator?
     @IBOutlet var tableView: UITableView!
-    var menuItems : LeftSide? 
+    var menuItems : LeftSideVM? 
 
     
     override func viewDidLoad() {

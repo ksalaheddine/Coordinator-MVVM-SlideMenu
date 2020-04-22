@@ -9,11 +9,12 @@
 import UIKit
 
 class FetchMenu {
-  static  func fetchMenu() -> LeftSide? {
+  static  func fetchMenu() -> LeftSideVM? {
         if let path = Bundle.main.path(forResource: "menuItems", ofType: "json") {
             do {
                 let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
-                let menuVM = try JSONDecoder().decode(LeftSide.self, from: data)
+                let menuData = try JSONDecoder().decode(LeftSide.self, from: data)
+                let menuVM = LeftSideVM(menuData)
                 return menuVM
             } catch {
                 NSLog("\(error)")

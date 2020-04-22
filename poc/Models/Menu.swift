@@ -25,3 +25,10 @@ struct MenuItem: Codable{
     }
   
 
+struct LeftSideVM
+{
+    var menuItems : [MenuItem]?
+    init(_ leftSide:LeftSide){
+        self.menuItems = leftSide.menuItems
+    }
+}
